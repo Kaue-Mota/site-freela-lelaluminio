@@ -25,6 +25,7 @@ const categories = [
   { key: "bacias", label: "Bacias" },
   { key: "cuscuzeiras", label: "Cuscuzeira" },
   { key: "frigideiras", label: "Frigideira" },
+  { key: "cafeteiras", label: "Cafeteira" },
 ];
 
 export default function Catalogo() {

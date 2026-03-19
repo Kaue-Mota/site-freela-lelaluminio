@@ -26,8 +26,10 @@ export default function Header() {
         scrolled ? "glass-header shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="section-container flex
-       items-center justify-between h-16 md:h-20">
+      <div
+        className="section-container flex
+       items-center justify-between h-16 md:h-20"
+      >
         {/* Logo */}
         <Link to="/" className="flex items-center  gap-3">
           <img
@@ -36,8 +38,6 @@ export default function Header() {
             className="logo rounded-lg object-cover"
             width={150}
           />
-         
-            
         </Link>
 
         {/* Desktop Nav */}
