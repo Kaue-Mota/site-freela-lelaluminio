@@ -68,7 +68,7 @@ export default function Home() {
             <Link to="/catalogo" className="btn-primary inline-flex items-center gap-2">
               Ver Catálogo <ArrowRight size={18} />
             </Link>
-            <Link to="/contato" className="btn-outline-red inline-block">
+            <Link to={`https://wa.me/5588933008270?text=${encodeURIComponent("Olá, gostaria de saber mais sobre os produtos de vocês!")}`} className="btn-outline-red inline-block">
               Fale Conosco
             </Link>
           </div>

@@ -39,23 +39,23 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
       ? `${selectedVariant.label}`
       : "Padrão";
 
-const message = `*OLÁ, TENHO INTERESSE NESTE PRODUTO*
+const message = `➤ *OLÁ, ACABEI DE CHEGAR DO CATÁLOGO DE VOCÊS, TENHO INTERESSE NESTE PRODUTO* 
     
-    PRODUTO - *${product.nome}*
+    ❯ PRODUTO - *${product.nome}*
 
-    CATEGORIA - *${product.categoria}*
+    ❯ CATEGORIA - *${product.categoria}*
 
-    TAMANHO - *${sizeText}*
+    ❯  TAMANHO - *${sizeText}*
 
-    COR - *${colorText}*
+    ❯  COR - *${colorText}*
 
-*Pode me passar mais informações?*
+➤ *Pode me passar mais informações?*
 
-IMAGEM : https://lelaluminio.vercel.app/${imageToShow}`;
+❯ IMAGEM : https://lelaluminio.vercel.app/${imageToShow}`;
     
   
 
-    const phoneNumber = "5517997721781";
+    const phoneNumber = "5588933008270";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
   };

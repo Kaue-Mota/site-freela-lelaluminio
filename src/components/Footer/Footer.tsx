@@ -12,11 +12,11 @@ export default function Footer() {
           L&L<span className="text-primary"> Alumínio</span>
         </span>
         <p className="text-sm text-muted-foreground max-w-md">
-          Qualidade em alumínio desde 1990. Produtos artesanais e industriais
-          para todo o Brasil.
+          Qualidade em alumínio desde 2017. Produtos artesanais e industriais
+          para todo o Nordeste.
         </p>
         <p className="text-xs text-muted-foreground mt-4">
-          © {new Date().getFullYear()} AlumiPro — Todos os direitos reservados.
+          © {new Date().getFullYear()} L&L Alumínio  — Todos os direitos reservados.
         </p>
       </div>
     </footer>

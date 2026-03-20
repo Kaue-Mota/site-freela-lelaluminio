@@ -2,10 +2,10 @@ import { useScrollAnimation } from "../../hooks/useScrollAnimation";
 import { Factory, Award, Users, Truck } from "lucide-react";
 
 const stats = [
-  { icon: Factory, label: "Anos de Experiência", value: "10+" },
+  { icon: Factory, label: "Anos de Experiência", value: "9+" },
   { icon: Award, label: "Produtos no Catálogo", value: "100+" },
   { icon: Users, label: "Clientes Satisfeitos", value: "5.000+" },
-  { icon: Truck, label: "Entregas no Brasil", value: "Todo Ceará" },
+  { icon: Truck, label: "Entregas no Brasil", value: "Todo Juazeiro" },
 ];
 
 export default function About() {
@@ -20,7 +20,7 @@ export default function About() {
             Sobre a <span className="text-primary">L&L Alumínio</span>
           </h1>
           <p className="text-center text-muted-foreground mb-16 max-w-2xl mx-auto leading-relaxed">
-            Somos uma fábrica de produtos em alumínio com mais de 10 anos de
+            Somos uma fábrica de produtos em alumínio com mais de 9 anos de
             tradição. Nossa missão é levar qualidade, durabilidade e design para
             cada cozinha brasileira, combinando técnicas artesanais com processos
             industriais modernos.
@@ -52,7 +52,7 @@ export default function About() {
               Nossa <span className="text-primary">História</span>
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Fundada em 1990 no interior do Nordeste, a L&L alumínio nasceu da
+              Fundada em 2017 no interior do Nordeste, a L&L alumínio nasceu da
               paixão por criar utensílios domésticos de qualidade. O que começou
               como uma pequena oficina cresceu para se tornar referência nacional
               em produtos de alumínio.

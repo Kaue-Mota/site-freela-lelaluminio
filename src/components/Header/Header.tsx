@@ -6,13 +6,15 @@ const links = [
   { to: "/", label: "Home" },
   { to: "/catalogo", label: "Catálogo" },
   { to: "/sobre", label: "Sobre" },
-  { to: "/contato", label: "Contato" },
+  { to: `https://wa.me/5588933008270?text=${encodeURIComponent("Olá, gostaria de saber mais sobre os produtos de vocês!")}`, label: "Contato" },
 ];
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { pathname } = useLocation();
+
+
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
