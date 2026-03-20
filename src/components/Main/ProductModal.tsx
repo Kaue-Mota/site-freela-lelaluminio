@@ -39,7 +39,7 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
       ? `${selectedVariant.label}`
       : "Padrão";
 
-    const message = `*OLÁ, TENHO INTERESSE NESTE PRODUTO*
+const message = `*OLÁ, TENHO INTERESSE NESTE PRODUTO*
     
     PRODUTO - *${product.nome}*
 
@@ -49,9 +49,9 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
 
     COR - *${colorText}*
 
-    *Pode me passar mais informações?*
+*Pode me passar mais informações?*
 
-    IMAGEM : https://site-freela-lelaluminio.vercel.app/${imageToShow}`;
+IMAGEM : https://lelaluminio.vercel.app/${imageToShow}`;
     
   
 
