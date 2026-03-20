@@ -18,14 +18,14 @@ interface Product {
 }
 
 const categories = [
-  { key: "todos", label: "Todos" },
-  { key: "panelas", label: "Panelas" },
-  { key: "copos", label: "Copos" },
-  { key: "pratos", label: "Pratos" },
-  { key: "bacias", label: "Bacias" },
-  { key: "cuscuzeiras", label: "Cuscuzeira" },
-  { key: "frigideiras", label: "Frigideira" },
-  { key: "cafeteiras", label: "Cafeteira" },
+  { key: "Todos", label: "Todos" },
+  { key: "Panelas", label: "Panelas" },
+  { key: "Copos", label: "Copos" },
+  { key: "Pratos", label: "Pratos" },
+  { key: "Bacias", label: "Bacias" },
+  { key: "Cuscuzeiras", label: "Cuscuzeira" },
+  { key: "Frigideiras", label: "Frigideira" },
+  { key: "Cafeteiras", label: "Cafeteira" },
 ];
 
 export default function Catalogo() {

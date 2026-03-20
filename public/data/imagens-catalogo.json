@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nome": "Bandeja com 6 copos",
-    "categoria": "copos",
+    "categoria": "Copos",
     "src": "/images/catalogo/bandeja-com-6copos.webp",
     "sizes": [],
     "variants": [
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "nome": "Cafeteira",
-    "categoria": "cafeteiras",
+    "categoria": "Cafeteiras",
     "src": "/images/catalogo/cafeteira-1500-1000-500.webp",
     "sizes": ["1500ml", "1000ml", "500ml"],
     "variants": [
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "nome": "Cuscuzeira",
-    "categoria": "cuscuzeiras",
+    "categoria": "Cuscuzeiras",
     "src": "/images/catalogo/cuscuzeira-18-16-14.webp",
     "sizes": ["18cm", "16cm", "14cm"],
     "variants": [
@@ -44,7 +44,7 @@
   {
     "id": 4,
     "nome": "Cuscuzeira Indiana Tampa de Vidro",
-    "categoria": "cuscuzeiras",
+    "categoria": "Cuscuzeiras",
     "src": "/images/catalogo/cuscuzeira-indiana-tampa-de-vidro.webp",
     "sizes": [],
     "variants": [
@@ -58,7 +58,7 @@
   {
     "id": 5,
     "nome": "Cuscuzeira Paulistinha Baixa",
-    "categoria": "cuscuzeiras",
+    "categoria": "Cuscuzeiras",
     "src": "/images/catalogo/cuscuzeira-paulistinha-baixa.webp",
     "sizes": [],
     "variants": [
@@ -72,7 +72,7 @@
   {
     "id": 6,
     "nome": "Cuscuzeira Indiana",
-    "categoria": "cuscuzeiras",
+    "categoria": "Cuscuzeiras",
     "src": "/images/catalogo/cuscuzeira-indiana.webp",
     "sizes": [],
     "variants": [
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "nome": "Jogo Leiteira",
-    "categoria": "panelas",
+    "categoria": "Panelas",
     "src": "/images/catalogo/jogo-leiteira-12-14-16.webp",
     "sizes": ["12cm", "14cm", "16cm"],
     "variants": [
@@ -100,7 +100,7 @@
   {
     "id": 8,
     "nome": "Jogo Panela Alta",
-    "categoria": "panelas",
+    "categoria": "Panelas",
     "src": "/images/catalogo/jogo-panela-alta-16-24.webp",
     "sizes": ["16cm a 24cm"],
     "variants": [
@@ -114,7 +114,7 @@
   {
     "id": 9,
     "nome": "Jogo Panela Baixa",
-    "categoria": "panelas",
+    "categoria": "Panelas",
     "src": "/images/catalogo/jogo-panela-baixa-14-22.webp",
     "sizes": ["14cm a 22cm"],
     "variants": [

@@ -33,25 +33,27 @@ export default function ProductModal({ product, onClose }: ProductModalProps) {
 
     const imageToShow = selectedVariant?.src ?? product.src;
     const sizeText = selectedSize
-      ? `Tamanho: ${selectedSize}`
-      : "Tamanho: Padrão";
+      ? `${selectedSize}`
+      : "Padrão";
     const colorText = selectedVariant
-      ? `Cor: ${selectedVariant.label}`
-      : "Cor: Padrão";
+      ? `${selectedVariant.label}`
+      : "Padrão";
 
-    const message = `Olá, tenho interesse no produto:
+    const message = `*OLÁ, TENHO INTERESSE NESTE PRODUTO*
     
-    Produto: *${product.nome}*
+    PRODUTO - *${product.nome}*
 
-    Categoria: ${product.categoria}
+    CATEGORIA - *${product.categoria}*
 
-    ${sizeText}
+    TAMANHO - *${sizeText}*
 
-    ${colorText}
+    COR - *${colorText}*
 
-     https://site-freela-lelaluminio.vercel.app/${imageToShow}
+    *Pode me passar mais informações?*
+
+    IMAGEM : https://site-freela-lelaluminio.vercel.app/${imageToShow}`;
     
-    Pode me passar mais informações?`;
+  
 
     const phoneNumber = "5517997721781";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
