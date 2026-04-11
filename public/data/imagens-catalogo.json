@@ -225,5 +225,55 @@
           "src": "/images/catalogo/jogo-panela-baixa-14-22.webp"
         }
     ]
+  },
+  {
+    "id": 10,
+    "nome": "Cuscuzeira Bule",
+    "categoria": "Cuscuzeiras",
+    "src": "/images/catalogo/cuscuzeira-bule-750ml-500-ml.webp",
+    "sizes": ["750ml", "500ml"],
+    "variants": [
+      {
+        "label": "Preta",
+        "hex": "#000000",
+        "src": "/images/catalogo/cuscuzeira-bule-750ml-500-ml-var-preta.webp"
+      },
+        {
+          "label": "Vermelha",
+          "hex": "#FF0000",
+          "src": "/images/catalogo/cuscuzeira-bule-750ml-500-ml.webp"
+        },
+
+        {
+          "label": "rosa",
+          "hex": "#FFC0CB",
+          "src": "/images/catalogo/cuscuzeira-bule-750ml-500-ml.webp"
+        }
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Cuscuzeira Bule Tampa Vidro",
+    "categoria": "Cuscuzeiras",
+    "src": "/images/catalogo/cuscuzeira-bule-tampa-vidro-750.webp",
+    "sizes": ["750ml"],
+    "variants": [
+      {
+        "label": "Preta",
+        "hex": "#000000",
+        "src": "/images/catalogo/cuscuzeira-bule-tampa-vidro-750-var-preta.webp"
+      },
+        {
+          "label": "Vermelha",
+          "hex": "#FF0000",
+          "src": "/images/catalogo/cuscuzeira-bule-tampa-vidro-750.webp"
+        },
+
+        {
+          "label": "rosa",
+          "hex": "#FFC0CB",
+          "src": "/images/catalogo/cuscuzeira-bule-tampa-vidro-750.webp"
+        }
+    ]
   }
 ]
